@@ -9,12 +9,12 @@ var Commit = React.createClass({
           <p><img className="github-avatars" src={this.props.avatar}></img></p>
         </div>
         <div className="col-md-10">
-           <p>{this.props.name}</p>
-           <p>{this.props.date}</p>
-           <p>{this.props.message}</p>
-           <p>{this.props.url}</p>
-            <p>{this.props.sha}</p>
-          </div>
+          <p>{this.props.name}</p>
+          <p>{this.props.date}</p>
+          <p>{this.props.message}</p>
+          <p>{this.props.url}</p>
+          <p>{this.props.sha}</p>
+        </div>
      </div>
       );
   }
